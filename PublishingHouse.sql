@@ -3,11 +3,10 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 26 2024 г., 22:53
+-- Время создания: Мар 27 2024 г., 01:51
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -20,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- База данных: `PublishingHouse`
 --
+CREATE DATABASE IF NOT EXISTS `PublishingHouse` DEFAULT CHARACTER SET utf16 COLLATE utf16_general_ci;
+USE PublishingHouse;
 
 -- --------------------------------------------------------
 
